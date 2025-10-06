@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Saúde</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="container">
+      <img src="assets/logo.png" alt="Logo Clínica Saúde+" class="logo">
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#contato" class="btn">Agende sua consulta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Cuidando da sua saúde com excelência</h1>
+      <p>Atendimento humanizado e profissionais especializados.</p>
+      <a href="#contato" class="btn">Agende agora</a>
+    </div>
+    <div class="hero-img">
+      <img src="assets/doctor.jpg" alt="Médico sorridente">
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="container">
+    <h2>Sobre Nós</h2>
+    <p>
+      A Clínica Saúde+ oferece atendimento médico de qualidade, com foco em bem-estar
+      e cuidado integral de nossos pacientes.
+    </p>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="container">
+    <h2>Nossos Serviços</h2>
+    <div class="grid">
+      <div class="card">👩‍⚕️ Consultas Médicas</div>
+      <div class="card">💉 Exames Laboratoriais</div>
+      <div class="card">🦷 Odontologia</div>
+      <div class="card">❤️ Check-up Preventivo</div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="container">
+    <h2>O que nossos pacientes dizem</h2>
+    <blockquote>"Atendimento maravilhoso, me senti muito bem cuidado!"</blockquote>
+    <cite>- João Silva</cite>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="container">
+    <h2>Agende sua Consulta</h2>
+    <form id="form-contato">
+      <input type="text" id="nome" placeholder="Seu Nome" required>
+      <input type="email" id="email" placeholder="Seu Email" required>
+      <input type="tel" id="telefone" placeholder="Seu Telefone" required>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    <p class="msg-sucesso" id="msg-sucesso"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Clínica Saúde+. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
