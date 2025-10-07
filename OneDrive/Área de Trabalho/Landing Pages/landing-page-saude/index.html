@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Saúde</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+<header>
+  <nav class="container header-nav">
+    <img src="imagens/logo.png" alt="Logo da Clínica" class="logo" />
+    <ul class="menu">
+      <li><a href="#sobre">Sobre Nós</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#medicos">Médicos</a></li>
+      <li><a href="#contato" class="btn">Agende sua consulta</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Cuidando da sua saúde com confiança e tecnologia</h1>
+    <p>Atendimento humanizado e excelência em clínica médica.</p>
+    <a href="#contato" class="btn">Agende agora</a>
+  </div>
+</section>
+
+
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="imagem/Hero Section.png.jpg" alt="Imagem principal" class="hero-img" />
+    <div class="hero-text">
+      <h1>Cuidando da sua saúde com confiança e tecnologia</h1>
+      <p>Atendimento humanizado e excelência em clínica médica.</p>
+      <a href="#contato" class="btn">Agende agora</a>
+    </div>
+  </section>
+
+  <!-- Sobre Nós -->
+  <section id="sobre" class="container">
+    <h2>Sobre Nós</h2>
+    <p class="intro">
+      Somos uma clínica com foco em excelência, atendimento acolhedor e tecnologia de ponta.
+    </p>
+    <div class="cards-sobre">
+      <div class="card hover-scale">
+        <img src="imagem/cardessobrenoscconfianca.png.jpg" alt="Confiança" />
+        <h3>Confiança</h3>
+        <p>Atendimento sério e transparente.</p>
+      </div>
+      <div class="card hover-scale">
+        <img src="imagem/cardessobrenostecnologia.png.jpg" alt="Tecnologia" />
+        <h3>Tecnologia</h3>
+        <p>Equipamentos modernos e diagnósticos rápidos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="container">
+    <h2>Nossos Serviços</h2>
+    <div class="cards-servicos">
+      <div class="card hover-scale">
+        <img src="imagem/cardesservicosCheck-uppreventivo.png.jpg" alt="Check-up Preventivo" />
+        <h3>Check-up Preventivo</h3>
+      </div>
+      <div class="card hover-scale">
+        <img src="imagem/cardesservicosconsultasmédicas.png.jpg" alt="Consultas Médicas" />
+        <h3>Consultas Médicas</h3>
+      </div>
+      <div class="card hover-scale">
+        <img src="imagem/cardesservicosexameslaboratoriai.png.jpg" alt="Exames Laboratoriais" />
+        <h3>Exames Laboratoriais</h3>
+      </div>
+      <div class="card hover-scale">
+        <img src="imagem/cardesservicosodontologia.png.jpg" alt="Odontologia" />
+        <h3>Odontologia</h3>
+      </div>
+      <div class="card hover-scale">
+        <img src="imagem/cardesservicosRaio-X.png.jpg" alt="Raio-X" />
+        <h3>Raio-X</h3>
+      </div>
+      <div class="card hover-scale">
+        <img src="imagem/cardesservicosUltrassonografia.png.jpg" alt="Ultrassonografia" />
+        <h3>Ultrassonografia</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Médicos -->
+  <section id="medicos" class="container">
+    <h2>Nosso Time</h2>
+    <div class="cards-servicos">
+      <div class="card hover-scale">
+        <img src="imagens/medico1.jpg" alt="Dr. Fulano" />
+        <h3>Dr. Fulano</h3>
+        <p>Cardiologista, 15 anos de experiência</p>
+      </div>
+      <div class="card hover-scale">
+        <img src="imagens/medico2.jpg" alt="Dra. Maria" />
+        <h3>Dra. Maria</h3>
+        <p>Pediatra, 12 anos de experiência</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="container">
+    <h2>Agende sua Consulta</h2>
+    <form id="form-contato">
+      <div class="inputGroup">
+        <input type="text" id="nome" name="nome" required autocomplete="off">
+        <label for="nome">Nome</label>
+      </div>
+      <div class="inputGroup">
+        <input type="email" id="email" name="email" required autocomplete="off">
+        <label for="email">Email</label>
+      </div>
+      <div class="inputGroup">
+        <input type="tel" id="telefone" name="telefone" required autocomplete="off">
+        <label for="telefone">Telefone</label>
+      </div>
+      <div class="inputGroup">
+        <input type="text" id="endereco" name="endereco" autocomplete="off">
+        <label for="endereco">Endereço</label>
+      </div>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    <p class="msg-sucesso" id="msg-sucesso"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Clínica Saúde+. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
